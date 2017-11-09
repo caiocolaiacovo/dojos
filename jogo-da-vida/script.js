@@ -6,8 +6,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         for (var j = 0; j < 10; j++) {
             var novaCelula = novaLinha.insertCell(j);
-
-            novaCelula.innerHTML = '(' + i + ',' + j + ')';
         }
     }
 
