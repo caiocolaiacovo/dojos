@@ -10,4 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
 
     console.log('table.row[2]: ', table.rows[2].cells[0]);
+
+    var celula = new Celula(1, 1);
+    console.log(celula.posicaoCima());
 });
